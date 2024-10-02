@@ -1,11 +1,5 @@
-import os
+from saudacao import ola
 
-def ola():
-    print("Hello, World!\n\n")
+saudacao = ola()
 
-# ============================================================================
-os.system('cls')
-
-hello = ola()
-
-hello
+saudacao
